@@ -37,6 +37,36 @@ ol, ul {
 	list-style: none;
 }
 
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    background-color: rgba(120, 120, 120, 0.1);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.centercontainer {
+    padding: 16px 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+.columnleft {
+    flex: 80%;
+}
+
+.columnright {
+    flex: 20%;
+}
+
 blockquote, q {
 	quotes: none;
 }
